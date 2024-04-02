@@ -7,7 +7,9 @@ body {
     Title
 */
 .title {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: orbitron;
   background-color: #070f2b;
   color: white;
