@@ -131,3 +131,12 @@ body {
   padding: 20px;
   margin: 20px;
 }
+
+@media (max-width: 1250px) {
+  .drum-pads {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 20px;
+  }
+}
