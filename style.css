@@ -133,12 +133,18 @@ body {
   padding: 20px;
   margin: 20px;
 }
+/* 
+  animation
+*/
+.pressed {
+  box-shadow: 0 3px 4px 0 #d8edf3;
+  opacity: 0.6;
+}
 
 @media (max-width: 1250px) {
-  .drum-pads {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
+  .drum {
+    width: 100px;
+    height: 100px;
   }
 }
 @media (max-width: 400px) {
